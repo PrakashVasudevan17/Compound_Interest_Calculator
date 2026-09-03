@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <form id="interestForm">
+  <label for="principal">Principal Amount ($):</label><br>
+  <input type="number" id="principal" required><br><br>
+
+  <label for="rate">Annual Interest Rate (%):</label><br>
+  <input type="number" id="rate" step="0.1" required><br><br>
+
+  <label for="time">Time (Years):</label><br>
+  <input type="number" id="time" step="0.1" required><br><br>
+
+  <button type="button" onclick="calculateInterest()">Calculate</button>
+  <button type="button" onclick="resetForm()">Reset</button>
+</form>
+
+<h3>Result:</h3>
+<p id="result">Enter values and click calculate.</p>
+
+<script src="script.js"></script>
+</body>
+</html>
