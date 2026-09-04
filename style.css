@@ -6,6 +6,8 @@
 
 body{
     background: #c280f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
 #interestForm{
@@ -13,4 +15,13 @@ body{
     margin: auto;
     background-color: white;
     padding: 20px;
+    margin-top: 60px;
+}
+
+label{
+    padding-bottom: 10px;
+}
+
+input{
+    padding-bottom : 20px;
 }
