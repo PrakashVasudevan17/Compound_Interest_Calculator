@@ -14,7 +14,7 @@ if(isNaN(p)|| isNaN(r) ||isNaN(t)){
 const interest = (p*r*t)/100;
 const totalAmount = p + interest;
 
-result.innerHTML = `Interest : $${interest.toFixed(2)}, TotalAmount : $${totalAmount.toFixed(2)}`
+result.innerHTML = `Interest : Rs.${interest.toFixed(2)}, TotalAmount : Rs.${totalAmount.toFixed(2)}`
 
 }
 

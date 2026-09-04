@@ -5,26 +5,26 @@
 }
 
 body{
-    background-color: #c280f2;
+    background-color: #bbf280;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
 #interestForm{
-    width:600px;
+    width:450px;
     margin: auto;
     background-color: white;
-    padding: 20px;
+    padding-left: 20px;
     margin-top: 100px;
 }
 
 label{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 input{
-    padding-bottom : 10px;
-    padding-top: 10px;
+    padding-bottom : 8px;
+    padding-top: 8px;
 }
 
 h2{
