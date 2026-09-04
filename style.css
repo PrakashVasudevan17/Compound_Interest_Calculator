@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: #bbf280;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
@@ -15,11 +14,13 @@ body{
     margin: auto;
     background-color: white;
     padding-left: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 label{
     padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 input{
@@ -29,6 +30,7 @@ input{
 
 h2{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h3{
